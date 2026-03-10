@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "hotel-reservation": {
+      "command": "python",
+      "args": ["/path/to/hotel_reservation_mcp_server.py"],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+  }
+}
